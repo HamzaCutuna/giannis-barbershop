@@ -20,8 +20,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'Poppins', 'sans-serif'],
-        logo: ['Poppins', 'sans-serif'],
+        sans: ['var(--font-sans)', 'Plus Jakarta Sans', 'sans-serif'],
+        logo: ['Plus Jakarta Sans', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
-const poppins = Poppins({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-sans",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://giannisbarbershop.ba'),
   title: "Gianni's Barbershop Sarajevo | Brijačnica",
   description: "Barbershop in Sarajevo. Professional haircuts, beard trims, and traditional shaves since 2013. Čekaluša 13, Sarajevo.",
-  keywords: "barbershop sarajevo, muški frizer sarajevo, gianni's barbershop, brijanje brade sarajevo, muško šišanje sarajevo",
+  keywords: "brijačnica sarajevo, muški frizer sarajevo, gianni's barbershop, brijanje brade sarajevo, muško šišanje sarajevo",
   openGraph: {
     title: "Gianni's Barbershop Sarajevo | Brijačnica",
     description: "Barbershop in Sarajevo. Professional haircuts, beard trims, and traditional shaves since 2013. Čekaluša 13, Sarajevo.",
@@ -67,7 +68,7 @@ export default function RootLayout({
         <meta name="geo.position" content="43.8563;18.4131" />
         <meta name="ICBM" content="43.8563, 18.4131" />
       </head>
-      <body className={poppins.className}>
+      <body className={plusJakartaSans.className}>
         {children}
       </body>
     </html>
