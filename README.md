@@ -59,4 +59,4 @@ For inquiries about the website, contact [HamzaDev](https://cutuna.com).
 
 ## License
 
-© 2024 Gianni's Barbershop. All rights reserved.
+© 2025 Gianni's Barbershop. All rights reserved.

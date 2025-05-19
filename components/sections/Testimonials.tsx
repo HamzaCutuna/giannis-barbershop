@@ -9,7 +9,7 @@ const testimonials = [
   {
     id: 1,
     name: 'Mak Čengić',
-    text: "I&apos;ve been coming to this barbershop for over 10 years, and I can confidently say it&apos;s the best in town! The service is always excellent, and the atmosphere is warm and friendly, making every visit a great experience.",
+    text: "I've been coming to this barbershop for over 10 years, and I can confidently say it's the best in town! The service is always excellent, and the atmosphere is warm and friendly, making every visit a great experience.",
     rating: 5,
   },
   {
@@ -21,7 +21,7 @@ const testimonials = [
   {
     id: 3,
     name: 'Tarik Efendić',
-    text: "I&apos;ve been coming here for over 10 years, and it&apos;s the best in town! Djani and Amar are amazing—skilled, friendly, and always pay attention to detail. The shop is clean and welcoming, and the service is consistently top-notch. Highly recommend!",
+    text: "I've been coming here for over 10 years, and it's the best in town! Djani and Amar are amazing—skilled, friendly, and always pay attention to detail. The shop is clean and welcoming, and the service is consistently top-notch. Highly recommend!",
     rating: 5,
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
   {
     id: 5,
     name: 'Ryan Lodder',
-    text: "Myself and another backpacker were after a spot to get our haircut and we are very happy we found Gianni&apos;s place. I&apos;d absolutely recommend for anyone travelling and in need of a cut.",
+    text: "Myself and another backpacker were after a spot to get our haircut and we are very happy we found Gianni's place. I'd absolutely recommend for anyone travelling and in need of a cut.",
     rating: 5,
   },
 ];

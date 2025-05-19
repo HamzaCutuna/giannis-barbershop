@@ -10,12 +10,12 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://giannisbarbershop.ba'),
-  title: "Gianni's Barbershop Sarajevo | Brijačnica i Frizerski Salon",
-  description: "Najbolja brijačnica u Sarajevu. Professional haircuts, beard trims, and traditional shaves since 2013. Čekaluša 13, Sarajevo.",
-  keywords: "brijačnica sarajevo, frizerski salon sarajevo, barbershop sarajevo, muški frizer sarajevo, gianni's barbershop, brijanje brade sarajevo, muško šišanje sarajevo",
+  title: "Gianni's Barbershop Sarajevo | Brijačnica",
+  description: "Barbershop in Sarajevo. Professional haircuts, beard trims, and traditional shaves since 2013. Čekaluša 13, Sarajevo.",
+  keywords: "barbershop sarajevo, muški frizer sarajevo, gianni's barbershop, brijanje brade sarajevo, muško šišanje sarajevo",
   openGraph: {
-    title: "Gianni's Barbershop Sarajevo | Brijačnica i Frizerski Salon",
-    description: "Najbolja brijačnica u Sarajevu. Professional haircuts, beard trims, and traditional shaves since 2013. Čekaluša 13, Sarajevo.",
+    title: "Gianni's Barbershop Sarajevo | Brijačnica",
+    description: "Barbershop in Sarajevo. Professional haircuts, beard trims, and traditional shaves since 2013. Čekaluša 13, Sarajevo.",
     url: "https://giannisbarbershop.ba",
     siteName: "Gianni's Barbershop Sarajevo",
     locale: "bs_BA",
