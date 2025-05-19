@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://giannisbarbershop.ba/sitemap.xml
+
+# Host
+Host: https://giannisbarbershop.ba 
