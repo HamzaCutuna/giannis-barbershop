@@ -34,57 +34,63 @@ const Booking = () => {
           transition={{ duration: 0.6 }}
           className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
         >
-          <div className="bg-black-light p-8 rounded-lg border border-gold/20 text-center hover:border-gold/50 transition-all duration-300">
+          <div className="bg-black-light p-8 rounded-lg border border-gold/20 text-center hover:border-gold/50 transition-all duration-300 flex flex-col h-full">
             <div className="w-16 h-16 rounded-full bg-black flex items-center justify-center mx-auto mb-6 border border-gold/30">
               <Phone className="text-gold" size={24} />
             </div>
             <h3 className="text-xl font-semibold mb-4">Call Us</h3>
-            <p className="mb-6 text-gray-300">
+            <p className="mb-6 text-gray-300 flex-grow">
               Call us directly to book your appointment with our receptionist.
             </p>
-            <Link 
-              href="tel:+38733877449" 
-              className="font-medium btn inline-block"
-              rel="noopener noreferrer"
-            >
-              033 877 449
-            </Link>
+            <div className="mt-auto">
+              <Link 
+                href="tel:+38733877449" 
+                className="font-medium btn inline-block min-w-[140px]"
+                rel="noopener noreferrer"
+              >
+                033 877 449
+              </Link>
+            </div>
           </div>
 
-          <div className="bg-black-light p-8 rounded-lg border border-gold/20 text-center hover:border-gold/50 transition-all duration-300">
+          <div className="bg-black-light p-8 rounded-lg border border-gold/20 text-center hover:border-gold/50 transition-all duration-300 flex flex-col h-full">
             <div className="w-16 h-16 rounded-full bg-black flex items-center justify-center mx-auto mb-6 border border-gold/30">
               <Calendar className="text-gold" size={24} />
             </div>
             <h3 className="text-xl font-semibold mb-4">Online Booking</h3>
-            <p className="mb-6 text-gray-300">
+            <p className="mb-6 text-gray-300 flex-grow">
               Book your appointment online using our convenient scheduling system.
             </p>
-            <Link 
-              href="https://calendly.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="btn inline-block"
-            >
-              Book Now
-            </Link>
+            <div className="mt-auto">
+              <Link 
+                href="https://calendly.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn inline-block min-w-[140px]"
+              >
+                Book Now
+              </Link>
+            </div>
           </div>
 
-          <div className="bg-black-light p-8 rounded-lg border border-gold/20 text-center hover:border-gold/50 transition-all duration-300">
+          <div className="bg-black-light p-8 rounded-lg border border-gold/20 text-center hover:border-gold/50 transition-all duration-300 flex flex-col h-full">
             <div className="w-16 h-16 rounded-full bg-black flex items-center justify-center mx-auto mb-6 border border-gold/30">
               <MessageSquare className="text-gold" size={24} />
             </div>
             <h3 className="text-xl font-semibold mb-4">Instagram</h3>
-            <p className="mb-6 text-gray-300">
+            <p className="mb-6 text-gray-300 flex-grow">
               Send us a message via Instagram to book or inquire about our services.
             </p>
-            <Link 
-              href="https://www.instagram.com/giannisbarbershop/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="btn inline-block"
-            >
-              Message Us
-            </Link>
+            <div className="mt-auto">
+              <Link 
+                href="https://www.instagram.com/giannisbarbershop/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn inline-block min-w-[140px]"
+              >
+                Message Us
+              </Link>
+            </div>
           </div>
         </motion.div>
 
